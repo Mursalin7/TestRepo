@@ -1,0 +1,57 @@
+.TicketPage {
+    margin: 200px;
+}
+
+.Numpad{
+    
+}
+
+
+.Wheel{
+    padding: 10px;
+}
+
+.Generator {
+    background-color:gray;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.Display li{
+    list-style : none
+}
+.Display {
+    background-color: cornflowerblue
+}
+.Display .btn {
+    background-color: transparent;
+    border-color: black;
+    cursor: pointer;
+}
+.keypad {
+    background:#AAA; 
+    padding: 5px;
+}
+.keypad .btn {
+    padding: 5px 25px;
+}
+.keypad .del {
+    padding: 5px 20px
+}
+.addbtn {
+    padding:5px 45px;
+}
+.WheelGenerator .Header {
+    color: aliceblue
+}
+.WheelGenerator .Footer{
+    color:black
+}
+
+.WheelButton {
+    background-image: url(../images/logo.png);
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+    cursor:pointer;
+}
